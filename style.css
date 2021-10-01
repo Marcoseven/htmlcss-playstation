@@ -1,0 +1,88 @@
+/* common_general_rules */
+/* /common_general_rules */
+
+/* debug */
+.debug #site_header {
+	height: 100px;
+	background-color: #edee9b9a;
+}
+
+.debug #site_main {
+	height: 5874px;
+	background-color: #d3fbc075;
+}
+
+.debug #site_footer {
+	height: 548px;
+	background-color: #b6bcf2ab;
+}
+
+.debug .jumbo {
+	height: 720px;
+	background-color: #fd7878;
+}
+
+.debug .console {
+	height: 1161px;
+	background-color: #bbf7fb;
+}
+
+.debug .takes {
+	height: 618px;
+	background-color: #fdd79e;
+}
+
+.debug .games {
+	height: 715px;
+	background-color: #d3fbc0;
+}
+
+.debug .play_station_4 {
+	height: 725px;
+	background-color: #f19595;
+}
+
+.debug .play_station_plus {
+	height: 400px;
+	background-color: #e3ea99;
+}
+
+.debug .play_station_store {
+	height: 677px;
+	background-color: #72e4a6;
+}
+
+.debug .play_station_now {
+	height: 460px;
+	background-color: #e3f864;
+}
+
+.debug .social {
+	height: 398px;
+	background-color: #f3a7f5;
+}
+/* /debug */
+
+/**********
+#SITE_HEADER 
+**********/
+
+/**********
+/#SITE_HEADER 
+**********/
+
+/**********
+#SITE_MAIN 
+**********/
+
+/**********
+/#SITE_MAIN 
+**********/
+
+/**********
+#SITE_FOOTER 
+**********/
+
+/**********
+/#SITE_FOOTER 
+**********/
