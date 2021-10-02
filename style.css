@@ -7,7 +7,6 @@ body {
 	width: 1170px;
 	height: 100%;
 	margin: auto;
-	text-align: center;
 }
 /* /common_general_rules */
 
@@ -83,12 +82,11 @@ body {
 	height: 40px;
 	background-color: #000;
 	text-align: right;
-	line-height: 40px;
 }
 
 .header_up img {
-	height: 50%;
-	vertical-align: middle;
+	height: 100%;
+	padding: 0.8rem;
 }
 /* /.header_up */
 
@@ -100,6 +98,12 @@ body {
 
 .bg_white {
 	background-color: #fff !important;
+}
+
+.nav-item i {
+	color: #999999;
+	font-size: 10px;
+	margin-left: 0.3rem;
 }
 
 .btn_menu_right {
@@ -123,6 +127,11 @@ body {
 	width: 60%;
 	height: 60%;
 }
+
+.navbar-brand img,
+.nav-link img {
+	padding: 0;
+}
 /* /.menu */
 
 /**********
@@ -132,6 +141,46 @@ body {
 /**********
 #SITE_MAIN 
 **********/
+
+/* .jumbo */
+.jumbo {
+	position: relative;
+}
+
+.jumbo img {
+	max-width: 100%;
+}
+
+.content_jumbo {
+	width: 40%;
+	height: auto;
+	position: absolute;
+	left: 15%;
+	top: 42%;
+	color: #fff;
+}
+
+.content_jumbo img {
+	width: 25%;
+	height: auto;
+}
+
+.content_jumbo h3,
+img {
+	padding-bottom: 2rem;
+}
+
+.content_jumbo p {
+	padding-top: 1.5rem;
+}
+
+.content_jumbo button {
+	border-radius: 20px;
+	background-color: #cd3d0f;
+	border-color: #cd3d0f;
+	font-size: 15px;
+}
+/* /.jumbo */
 
 /**********
 /#SITE_MAIN 
