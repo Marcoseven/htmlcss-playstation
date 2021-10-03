@@ -325,6 +325,19 @@ p {
 /* /.play_station_store */
 
 /* .play_station_now */
+.play_station_now {
+	background-color: #161c3b;
+}
+
+.play_station_now sub {
+	font-size: 7px;
+}
+
+.play_station_now button {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
 /* /.play_station_now */
 
 /* .social */
