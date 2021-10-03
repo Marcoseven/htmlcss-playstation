@@ -316,10 +316,12 @@ p {
 	background-color: #d9dadc;
 	border: none;
 }
-
 /* /.play_station_plus */
 
 /* .play_station_store */
+.play_station_store p {
+	color: #727272;
+}
 /* /.play_station_store */
 
 /* .play_station_now */
