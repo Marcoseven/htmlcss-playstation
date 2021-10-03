@@ -171,7 +171,8 @@ img {
 	padding-bottom: 1.5rem;
 }
 
-.content_jumbo button {
+.content_jumbo button,
+.content_takes button {
 	border-radius: 20px;
 	background-color: #cd3d0f;
 	border-color: #cd3d0f;
@@ -232,6 +233,87 @@ img {
 	color: #000;
 }
 /* /.console */
+
+/* .takes */
+.takes:first-child {
+	background-size: cover;
+}
+
+.content_takes {
+	position: absolute;
+	left: 20%;
+	top: 15%;
+}
+
+.content_takes img {
+	width: 25%;
+	height: auto;
+}
+
+.content_takes h3,
+p {
+	color: #fff;
+	padding: 0 !important;
+}
+
+.content_takes p {
+}
+/* /.takes */
+
+/* .games */
+.games {
+	width: 100%;
+	height: auto;
+	background-color: #1f1f1f;
+}
+
+.games img {
+	height: auto;
+	width: 100%;
+	padding: 0;
+	border-radius: 20px;
+}
+
+.games .col {
+	text-align: center;
+}
+
+.text_games {
+	color: #fff;
+	padding-top: 2rem;
+}
+
+.games a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.games h5 {
+	font-size: 15px;
+	text-align: left;
+	padding-top: 0.7rem;
+}
+
+.games sup {
+	font-size: 7px;
+}
+/* /.games */
+
+/* .play_station_4 */
+/* /.play_station_4 */
+
+/* .play_station_plus */
+/* /.play_station_plus */
+
+/* .play_station_store */
+/* /.play_station_store */
+
+/* .play_station_now */
+/* /.play_station_now */
+
+/* .social */
+/* /.social */
 
 /**********
 /#SITE_MAIN 
