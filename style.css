@@ -307,6 +307,16 @@ p {
 /* /.play_station_4 */
 
 /* .play_station_plus */
+.play_station_plus {
+	background-color: #bebcbb;
+}
+
+.play_station_plus button {
+	color: #2d64e6;
+	background-color: #d9dadc;
+	border: none;
+}
+
 /* /.play_station_plus */
 
 /* .play_station_store */
