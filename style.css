@@ -348,7 +348,6 @@ p {
 .social .container {
 	padding-top: 5rem !important;
 }
-
 /* /.social */
 
 /**********
@@ -358,6 +357,42 @@ p {
 /**********
 #SITE_FOOTER 
 **********/
+
+#site_footer {
+	width: 100%;
+	height: auto;
+	background-color: #00439c;
+}
+
+.col_up > img {
+	width: 20%;
+}
+
+#site_footer a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+#site_footer i {
+	/* filter: invert(1);  */
+}
+
+.list_footer {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+}
+
+.list_footer > li > a {
+	font-size: 0.9rem;
+	padding: 5px 0;
+}
+
+.col_down {
+	padding-top: 5rem;
+}
 
 /**********
 /#SITE_FOOTER 
