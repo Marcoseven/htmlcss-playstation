@@ -341,6 +341,14 @@ p {
 /* /.play_station_now */
 
 /* .social */
+.social {
+	padding: 5rem 0;
+}
+
+.social .container {
+	padding-top: 5rem !important;
+}
+
 /* /.social */
 
 /**********
