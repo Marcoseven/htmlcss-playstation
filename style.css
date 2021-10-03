@@ -301,6 +301,9 @@ p {
 /* /.games */
 
 /* .play_station_4 */
+.play_station_4 p {
+	color: #727272;
+}
 /* /.play_station_4 */
 
 /* .play_station_plus */
