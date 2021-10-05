@@ -1,6 +1,6 @@
 /* common_general_rules */
 body {
-	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container_major {
@@ -89,28 +89,10 @@ body {
 /* /.top_links */
 
 /* .menu */
-.menu {
-	justify-content: space-between;
-	align-items: center;
-}
-
-.bg_white {
-	background-color: #fff !important;
-}
-
 .nav-item i {
 	color: #999999;
 	font-size: 10px;
 	margin-left: 0.3rem;
-}
-
-.btn_menu_right {
-	width: auto;
-	height: auto;
-	border-radius: 20px;
-	border: 1px solid #000;
-	background: #363636;
-	color: #fff !important;
 }
 
 .nav-item a {
@@ -125,11 +107,6 @@ body {
 	width: 60%;
 	height: 60%;
 }
-
-.navbar-brand img,
-.nav-link img {
-	padding: 0;
-}
 /* /.menu */
 
 /**********
@@ -141,23 +118,14 @@ body {
 **********/
 
 /* .jumbo */
-.jumbo {
-	position: relative;
-	height: auto;
-}
-
-.hero_slider {
-	height: 100%;
-}
-
-.image_jumbo {
+.jumbo_image {
 	background-image: url("./assets_playstation_img/img/jumbo-bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.hero_text {
+.jumbo_text {
 	width: auto;
 	padding-top: 25rem;
 	color: white;
@@ -167,20 +135,11 @@ body {
 	max-width: 100%;
 }
 
-.content_jumbo h3,
-img {
-	padding-bottom: 1.5rem;
+.jumbo_content img {
+	margin-bottom: 5rem;
 }
 
-.content_jumbo button,
-.content_takes button {
-	border-radius: 20px;
-	background-color: #cd3d0f;
-	border-color: #cd3d0f;
-	font-size: 15px;
-}
-
-.image_card {
+.jumbo_col_image {
 	padding-bottom: 0;
 	border-radius: 10px;
 }
@@ -195,44 +154,32 @@ img {
 	color: #0072ce;
 }
 
-.text_console {
+.console_text {
 	text-align: center;
 	padding-bottom: 5rem;
 }
 
-.image_console {
+.console_image {
 	height: auto;
 	width: 100%;
 }
 
-.btn {
-	border-radius: 20px;
-}
-
-.col_first {
+#console_col_first {
 	border-bottom: 1px solid #0072ce;
 }
 
-.row_console_card img {
+.console_row_col img {
 	height: auto;
 	width: 50%;
 	padding: 0;
 }
 
-.img_card_console {
-	opacity: 1 !important;
-}
-
-.row_console_card a {
+.console_row_col a {
 	text-decoration: none;
 	opacity: 0.5;
 }
 
-.row_console_card col {
-	border-bottom: 1px solid #0072ce;
-}
-
-.row_console_card h5 {
+.console_row_col h5 {
 	text-decoration: none;
 	font-size: 15px;
 	color: #000;
@@ -240,37 +187,24 @@ img {
 /* /.console */
 
 /* .takes */
-.image_takes {
+.takes_image {
 	background-image: url("./assets_playstation_img/img/it-takes-two-hero-banner-desktop.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.text_takes {
+.takes_text {
 	height: auto;
 	color: white;
 	box-sizing: content-box;
 	padding-top: 3rem;
 	padding-bottom: 5rem;
 }
-
-.content_takes img {
-	width: 25%;
-	height: auto;
-}
-
-.content_takes h3,
-p {
-	color: #fff;
-	padding: 0 !important;
-}
 /* /.takes */
 
 /* .games */
 .games {
-	width: 100%;
-	height: auto;
 	background-color: #1f1f1f;
 }
 
@@ -344,10 +278,10 @@ p {
 	font-size: 7px;
 }
 
-.play_station_now a {
-	background-color: #fff;
-	color: #000;
-	border: 1px solid #000;
+.play_station_now p {
+	color: #fff;
+	font-size: 15px;
+	padding: 1.5rem 0;
 }
 /* /.play_station_now */
 
@@ -370,9 +304,8 @@ p {
 **********/
 
 #site_footer {
-	width: 100%;
-	height: auto;
 	background-color: #00439c;
+	padding: 4rem 0;
 }
 
 .col_up > img {
@@ -401,6 +334,11 @@ p {
 	padding-top: 5rem;
 }
 
+.col_copyright p {
+	color: #fff;
+	margin: 0;
+}
+
 /**********
 /#SITE_FOOTER 
 **********/
@@ -409,47 +347,14 @@ p {
 MEDIA_QUERY
 **********/
 
-/* media_query_width_min_0px_max_767px_xs */
-@media screen and (max-width: 767px) {
+/* media_query_width_min_0px_max_575px_xs */
+@media screen and (max-width: 575px) {
 	.container_major {
 		width: auto;
 	}
 
 	/* #site_main */
-	.hero_text {
-		width: 100%;
-		box-sizing: border-box;
-	}
-
-	.image_right {
-		display: none;
-	}
-	/* /#site_main */
-
-	/* #site_footer */
-	#site_footer .row {
-		flex: none;
-	}
-
-	.link_footer {
-		flex: none;
-	}
-	/* /#site_footer */
-}
-/* /media_query_width_min_0px_max_767px_xs */
-
-/* media_query_width_min_768px_max_991px_sm */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.container_major {
-		width: auto;
-	}
-
-	/* #site_main */
-	.play_station_store img {
-		width: 50% !important;
-	}
-
-	.image_right {
+	.play_station_now_image {
 		display: none;
 	}
 	/* /#site_main */
@@ -459,12 +364,58 @@ MEDIA_QUERY
 		flex: none;
 	}
 
-	#site_footer .row {
-		flex: none;
+	.country {
+		padding-bottom: 2rem;
 	}
 	/* /#site_footer */
 }
-/* /media_query_width_min_768px_max_991px_sm */
+/* /media_query_width_min_0px_max_575px_xs */
+
+/* media_query_width_min_576px_max_767px_sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	.container_major {
+		width: auto;
+	}
+
+	/* #site_main */
+	.play_station_store img {
+		width: 50% !important;
+	}
+
+	.play_station_now_image {
+		display: none;
+	}
+	/* /#site_main */
+
+	/* #site_footer */
+	#site_footer > .container > .row {
+		flex: none;
+	}
+
+	.country {
+		padding-bottom: 2rem;
+	}
+	/* /#site_footer */
+}
+/* /media_query_width_min_576px_max_767px_sm */
+
+/* media_query_width_min_768px_max_991px_md */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.container_major {
+		width: auto;
+	}
+
+	/* #site_footer */
+	#site_footer > .container > .row {
+		flex: none;
+	}
+
+	.country {
+		padding-bottom: 2rem;
+	}
+	/* /#site_footer */
+}
+/* /media_query_width_min_768px_max_991px_md */
 
 /**********
 /MEDIA_QUERY
