@@ -18,7 +18,7 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-		<title>Playstation</title>
+		<title>PlayStation</title>
 	</head>
 	<body class="">
 		<!-- #site_header -->
@@ -45,9 +45,9 @@
 				>
 					<div class="container-fluid">
 						<a class="navbar-brand" href="#"
-							><img
+							><img class="p-0"
 								src="./assets_playstation_img/img/play_logo.svg"
-								alt="logo playstation"
+								alt="logo PlayStation"
 						/></a>
 						<button
 							class="navbar-toggler"
@@ -116,9 +116,9 @@
 								</li>
 								<li class="nav-item">
 									<a class="nav-link btn" href="#"
-										><img
+										><img class="p-0"
 											src="./assets_playstation_img/img/lens.svg"
-											alt="immagine figurativa di una lente di ingradimento"
+											alt="immagine figurativa di una lente di ingrandimento"
 									/></a>
 								</li>
 							</ul>
@@ -135,13 +135,13 @@
 		<main id="site_main">
 			<!-- .jumbo -->
 			<section class="jumbo">
-				<div class="hero_slider">
-					<div class="image_jumbo">
-						<div class="hero_text ps-2 ps-sm-4 pb-5 container_major">
+				<!-- <div class="hero_slider"> -->
+					<div class="jumbo_image">
+						<div class="jumbo_text ps-2 ps-sm-4 pb-5 container_major">
 							<img
 								class="w-25"
 								src="./assets_playstation_img/img/returnal-hero-banner-logo.png"
-								alt="immagine con scritto Returnal, il logo del videogioco"
+								alt="immagine con scritto Returnal, il logo dell'omonimo videogioco"
 							/>
 							<h3>Rompi il cerchio</h3>
 							<p>
@@ -151,9 +151,9 @@
 							</p>
 							<a href="#" class="btn btn-danger rounded-pill">Acquista ora</a>
 						</div>
-					</div>
+					<!-- </div> -->
 				</div>
-				<div class="content_jumbo">
+				<div class="jumbo_content">
 					<div
 						class="
 							row
@@ -169,7 +169,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#"
 								><img
-									class="image_card w-100"
+									class="jumbo_col_image w-100"
 									src="./assets_playstation_img/img/returnal-listing-thumb-01-ps5.jpg"
 									alt="immagine del videogioco Returnal"
 							/></a>
@@ -177,7 +177,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#"
 								><img
-									class="image_card"
+									class="jumbo_col_image"
 									src="./assets_playstation_img/img/ratchet-and-clank-rift-apart-keyart.jpg"
 									alt="immagine del videogioco Ratchet"
 							/></a>
@@ -185,7 +185,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#"
 								><img
-									class="image_card"
+									class="jumbo_col_image"
 									src="./assets_playstation_img/img/returnal-listing-thumb-01-ps5.jpg"
 									alt="immagine del videogioco Returnal"
 							/></a>
@@ -193,7 +193,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#"
 								><img
-									class="image_card"
+									class="jumbo_col_image"
 									src="./assets_playstation_img/img/ratchet-and-clank-rift-apart-keyart.jpg"
 									alt="immagine del videogioco Ratchet"
 							/></a>
@@ -201,7 +201,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#"
 								><img
-									class="image_card"
+									class="jumbo_col_image"
 									src="./assets_playstation_img/img/returnal-listing-thumb-01-ps5.jpg"
 									alt="immagine del videogioco Returnal"
 							/></a>
@@ -209,7 +209,7 @@
 						<div class="col-lg-2 col-md-4 col-6">
 							<a href="#"
 								><img
-									class="image_card"
+									class="jumbo_col_image"
 									src="./assets_playstation_img/img/ratchet-and-clank-rift-apart-keyart.jpg"
 									alt="immagine del videogioco Ratchet"
 							/></a>
@@ -222,8 +222,8 @@
 			<!-- .console -->
 			<section class="console m-md-auto">
 				<div class="container_major">
-					<div class="text_console pb-4">
-						<h4>PLAY HAS NO LIMITS</h4>
+					<div class="console_text">
+						<h4 class="fs-6">PLAY HAS NO LIMITS</h4>
 						<h2>Ecco la PlayStation 5</h2>
 						<p>
 							Tuffati in nuove possibilità di gioco completamente inaspettate
@@ -237,13 +237,11 @@
 									Sperimenta la nuova generazione di incredibili giochi
 									<br />PlayStation.
 								</p>
-								<button type="button" class="btn btn-primary">
-									Maggiori informazioni
-								</button>
+								<a href="#" class="btn btn-primary rounded-pill">Maggiori informazioni</a>
 							</div>
 							<div class="col">
 								<img
-									class="image_console"
+									class="console_image"
 									src="./assets_playstation_img/img/playstation-5-thumb.png"
 									alt="immagine che ritae la playstation 5 con joystick"
 								/>
@@ -255,15 +253,15 @@
 							class="
 								row
 								text-lg-center
-								row_console_card
+								console_row_col
 								gx-5
 								justify-content-lg-center
 								pb-5
 								row-cols-sm-3
 							"
 						>
-							<div class="col col_first col-lg-2 col-sm-4">
-								<a href="#" class="img_card_console"
+							<div id="console_col_first" class="col col-lg-2 col-sm-4"> 
+								<a href="#" class="opacity-100"
 									><img
 										src="./assets_playstation_img/img/playstation-5-thumb.png"
 										alt="immagine che ritae la playstation 5 con joystick"
@@ -317,14 +315,14 @@
 
 			<!-- .takes -->
 			<section class="takes">
-				<div class="image_takes">
-					<div class="text_takes container_major">
+				<div class="takes_image">
+					<div class="takes_text container_major">
 						<img
 							class="w-25"
 							src="./assets_playstation_img/img/it-takes-two-logo.png"
 							alt=""
 						/>
-						<h3 class="fs-2 pb-3">
+						<h3 class="fs-2 py-3">
 							Un'avventura <br />cooperativa <br />selvaggia ti attende
 						</h3>
 						<p>
@@ -505,16 +503,13 @@
 									/>
 								</a>
 								<div>
-									<h5>PlayStation 4</h5>
+									<h3>PlayStation 4</h3>
 									<p>
 										Giochi incredibili live su PS4, con 1 <br />TB di spazio di
 										archiviazione.
 									</p>
 								</div>
-
-								<button type="button" class="btn btn-primary">
-									Scopri di più
-								</button>
+								<a href="#" class="btn btn-primary rounded-pill">Scopri di più</a>
 							</div>
 							<div class="col-lg-4 col-sm-12">
 								<a href="#"
@@ -525,16 +520,14 @@
 									/>
 								</a>
 								<div>
-									<h5>PlayStation VR</h5>
+									<h3>PlayStation VR</h3>
 									<p>
 										Oltre 500 titoli ed esperienze di gioco. <br />Scoprili
 										tutti.
 									</p>
 								</div>
 
-								<button type="button" class="btn btn-primary">
-									Scopri di più
-								</button>
+								<a href="#" class="btn btn-primary rounded-pill">Scopri di più</a>
 							</div>
 							<div class="col-lg-4 col-sm-12">
 								<a href="#"
@@ -545,16 +538,14 @@
 									/>
 								</a>
 								<div>
-									<h5>Accessori</h5>
+									<h3>Accessori</h3>
 									<p>
 										Migliora la tua esperienza PS4 con <br />una gamma di
 										accessori ufficiali.
 									</p>
 								</div>
+								<a href="#" class="btn btn-primary rounded-pill">Scopri di più</a>
 
-								<button type="button" class="btn btn-primary">
-									Scopri di più
-								</button>
 							</div>
 						</div>
 					</div>
@@ -565,22 +556,23 @@
 			<!-- .play_station_plus -->
 			<section class="play_station_plus my-4">
 				<div class="container_major">
-					<div class="row align-items-center text-center">
+					<div class="row align-items-center">
 						<div class="col">
 							<img
-								class="w-75"
-								src="./assets_playstation_img/img/ps-plus-logo.png"
-								alt="immagine che rappresenta i quattro simboli  classici di un joystick della PlayStation: un triangolo, un cerchio, una x e un quadrato"
-							/>
-							<p>
-								Migliora la tua esperienza PlayStation con l'accesso a
-								multigiocatore online, <br />giochi mensili, sconti esclusivi e
-								altro ancora.
-							</p>
-							<a href="#" class="btn btn-light rounded-pill"
-								>Esplora PlayStation 4 Plus</a
-							>
+							class="w-75"
+							src="./assets_playstation_img/img/ps-plus-logo.png"
+							alt="immagine che rappresenta i quattro simboli  classici di un joystick della PlayStation: un triangolo, un cerchio, una x e un quadrato"
+						/>
+						<p>
+							Migliora la tua esperienza PlayStation con l'accesso a
+							multigiocatore online, <br />giochi mensili, sconti esclusivi e
+							altro ancora.
+						</p>
+						<a href="#" class="btn btn-light rounded-pill"
+							>Esplora PlayStation 4 Plus</a
+						>
 						</div>
+							
 						<div class="col">
 							<img
 								class="w-75 p-0"
@@ -654,7 +646,7 @@
 								>Esplora PlayStation Now</a
 							>
 						</div>
-						<div class="image_right col-lg-6">
+						<div class="play_station_now_image col-lg-6">
 							<img
 								class="w-100"
 								src="./assets_playstation_img/img/ps-now-april-featured-image-block.png"
@@ -671,35 +663,35 @@
 				<div class="container_major text-center">
 					<h2>Seguici sui social media</h2>
 					<div class="container pt-5">
-						<div class="row justify-content-center gx-1 row-cols-lg-4 row-cols-md-4 row-cols-sm-4 row-cols-xs-2 ">
-							<div class="col col-6">
+						<div class="row justify-content-center row-cols-lg-4 row-cols-md-4 row-cols-sm-4 row-cols-2 gy-4 gx-1">
+							<div class="col col-6 gx-lg-5">
 								<a href="#"
 									><img
-										class="w-75"
+										class="w-100"
 										src="./assets_playstation_img/img/twitter.jpg"
 										alt="logo del social network Twitter"
 								/></a>
 							</div>
-							<div class="col col-6">
+							<div class="col col-6 gx-lg-5">
 								<a href="#"
 									><img
-										class="w-75"
+										class="w-100"
 										src="./assets_playstation_img/img/facebook.jpg"
 										alt="logo del social network Facebookr"
 								/></a>
 							</div>
-							<div class="col col-6">
+							<div class="col col-6 gx-lg-5">
 								<a href="#"
 									><img
-										class="w-75"
+										class="w-100"
 										src="./assets_playstation_img/img/instagram.jpg"
 										alt="logo del social network Instangram"
 								/></a>
 							</div>
-							<div class="col col-6">
+							<div class="col col-6 gx-lg-5">
 								<a href="#"
 									><img
-										class="w-75"
+										class="w-100"
 										src="./assets_playstation_img/img/youtube.png"
 										alt="logo del social network YouTube"
 								/></a>
@@ -722,64 +714,63 @@
 							src="./assets_playstation_img/img/ps-footer.svg"
 							alt="immagine che raffigura il logo della PlayStation"
 						/>
-						<div>
+						<div class="country">
 							<a href="#"
 								><i class="fas fa-globe pt-5"></i>
 								<span>Country/Region: Italy</span></a
 							>
 						</div>
 					</div>
-					<div class="link_footer col-lg-6 d-flex mt-md-5">
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<ul class="list_footer">
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<ul class="list_footer">
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<ul class="list_footer">
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-								<li><a href="#">Link footer n</a></li>
-							</ul>
+					<div class="col">
+						<div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+								<ul class="list_footer">
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+								<ul class="list_footer">
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+								<ul class="list_footer">
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+									<li><a href="#">Link footer n</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col_copyright">
-						<img
-							class="w-25 padding"
-							src="./assets_playstation_img/img/sie-logo.svg"
-							alt="logo della Sony Interactive Entertainment"
-						/>
-						<p>
-							Website <i class="far fa-copyright"></i> 2021 Sony Interactive
-							Entertainment Europe Limited. Tutti i contenuti, nomi <br />dei
-							giochi, nomi commerciali e/o di abbigliamento, marchi registrati,
-							grafica e <br />immagini associati sono marchi registarti e/o
-							materiale protetto da copyright dei <br />rispettivi proprietari.
-							Tutti i diritti riservati.
-							<span class="text-decoration-underline">Maggiori info</span>
-						</p>
+				<div class="container">
+					<div class="row">
+						<div class="col_copyright">
+							<img
+								class="w-25 padding"
+								src="./assets_playstation_img/img/sie-logo.svg"
+								alt="logo della Sony Interactive Entertainment"
+							/>
+							<p class="pt-5">
+								Website <i class="far fa-copyright"></i> 2021 Sony Interactive
+								Entertainment Europe Limited. Tutti i contenuti, nomi <br />dei
+								giochi, nomi commerciali e/o di abbigliamento, marchi registrati,
+								grafica e <br />immagini associati sono marchi registarti e/o
+								materiale protetto da copyright dei <br />rispettivi proprietari.
+								Tutti i diritti riservati.
+								<span class="text-decoration-underline">Maggiori info</span>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
